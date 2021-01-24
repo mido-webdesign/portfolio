@@ -668,6 +668,9 @@ footer small {
   }
   /* fv
     ----------------------------------------- */
+  .fv {
+    min-height: auto;
+  }
   .fv::after {
     top: 0;
     width: 100vw;
