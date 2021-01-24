@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mido Web Design | Works ユアコーディング</title>
+    <meta name="description" content="Mido Web Design | ポートフォリオサイト">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/works.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="header-wrapper">
+        <h1 class="header-logo" id="header-logo"><a href="index.html">Mido Web Design</a></h1>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html#profile">Profile<span>自己紹介</span></a></li>
+                <li><a href="index.html#skills">Skills<span>スキル</span></a></li>
+                <li><a href="index.html#works">Works<span>実績</span></a></li>
+            </ul>
+        </nav>
+        <button type="button" id="js-hamburger" class="hamburger" aria-controls="js-global-menu" aria-expanded="false" aria-label="メニューを開閉する">
+            <span class="hamburger__line"></span>
+        </button>
+        <div class="sp-global-menu" id="js-global-menu" area-hidden="true">
+            <nav>
+                <ul>
+                    <li><a href="index.html#profile">Profile<span>自己紹介</span></a></li>
+                    <li><a href="index.html#skills">Skills<span>スキル</span></a></li>
+                    <li><a href="index.html#works">Works<span>実績</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="drawer-background" id="js-drawer-background">
+    </div>
+</header>
+
+<main>
+    <div class="fv" id="fv" data-aos="fade-right" data-aos-delay="1000">
+        <div class="fv-container">
+            <div class="fv-image01"></div>
+            <div class="fv-image02"></div>
+            <div class="copy-wrapper">
+                <h1 class="copy-main">Works</h1>
+                <h2 class="copy-sub">これまでの制作実績を掲載しています。</h2>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="wrapper">
+            <h2 class="section-title">【ユアコーディング】<br>架空サイト</h2>
+            <p class="section-text">
+                XDデータのデザインカンプからコーディングしました。<br>
+                レスポンシブデザインは自作です。<br>
+                <br>
+                jQueryでアニメーションを実装していますので、下記より是非一度ご覧ください。<br>
+                <a class="button" href="https://mido-webdesign.github.io/">ページを見る</a>
+                <br>
+                デザインカンプ提供元：<br>
+                <a class="link" href="https://note.com/samuraibrass/n/nd1748e42934e">https://note.com/samuraibrass/n/nd1748e42934e</a>
+            </p>
+
+            <div class="img-box">
+                <img class="img-pc" src="images/yourcoding_pc.png" alt="ユアコーディング　デスクトップ版">
+                <img class="img-sp" src="images/yourcoding_sp.png" alt="ユアコーディング　スマホ版">
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+<footer>
+    <small>&copy;Mido Web Design 2021 All Rights Reserved.</small>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
