@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mido Web Design</title>
+    <meta name="description" content="Mido Web Design | ポートフォリオサイト">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="header-wrapper">
+        <h1 class="header-logo" id="header-logo">Mido Web Design</h1>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#profile">Profile<span>自己紹介</span></a></li>
+                <li><a href="#skills">Skills<span>スキル</span></a></li>
+                <li><a href="#works">Works<span>実績</span></a></li>
+            </ul>
+        </nav>
+        <button type="button" id="js-hamburger" class="hamburger" aria-controls="js-global-menu" aria-expanded="false" aria-label="メニューを開閉する">
+            <span class="hamburger__line"></span>
+        </button>
+        <div class="sp-global-menu" id="js-global-menu" area-hidden="true">
+            <nav>
+                <ul>
+                    <li><a href="#profile">Profile<span>自己紹介</span></a></li>
+                    <li><a href="#skills">Skills<span>スキル</span></a></li>
+                    <li><a href="#works">Works<span>実績</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="drawer-background" id="js-drawer-background">
+    </div>
+</header>
+
+<main>
+    <div class="fv" id="fv" data-aos="fade-right" data-aos-delay="1000">
+        <div class="fv-container">
+            <div class="fv-image"></div>
+            <div class="copy-wrapper">
+                <h1 class="copy-main">Mido Web Design</h1>
+                <h2 class="copy-sub">Portfolio</h2>
+            </div>
+        </div>
+    </div>
+
+    <section id="profile">
+        <div class="wrapper">
+            <h2 class="section-title">Profile</h2>
+            <h3 class="section-title-jp">自己紹介</h3>
+            <div class="profile-container">
+                <img class="profile-img" data-aos="fade-up" src="images/profile_image.jpg" alt="プロフィール画像">
+                <div class="profile-textbox" data-aos="fade-down">
+                    <p>
+                        はじめまして。Midoと申します。<br>
+                        1994年生まれの26歳です。<br>
+                        <br>
+                        大学卒業後、医療系の営業を約2年、金融系の法務部アシスタントを約1年経験後、Web制作の勉強を始めました。<br>
+                        <br>
+                        いつも丁寧で迅速な対応と、お客様を思いやることができるよう心がけています。<br>
+                        <br>
+                        これまでの経験を活かし、責任感のあるお仕事をさせていただきたいと思います。<br>
+                        <br>
+                        どうぞよろしくお願いいたします。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="wrapper">
+            <h2 class="section-title">Skills</h2>
+            <h3 class="section-title-jp">スキル</h3>
+            <div class="skills-container" data-aos="fade-left">
+                <div class="skills-item">
+                    <div class="skills-image"><img src="images/icon.html.png" alt="htmlのアイコン"></div>
+                    <div class="skills-textbox">
+                        <h4 class="skills-title">HTML</h4>
+                        <p class="skills-paragraph">
+                            使用歴１年<br>
+                            <br>
+                            基本的なデザインは問題なくコーディングできます。<br>
+                            誰が見ても分かりやすいマークアップを心がけています。
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-image"><img src="images/icon.css.png" alt="cssのアイコン"></div>
+                    <div class="skills-textbox">
+                        <h4 class="skills-title">CSS</h4>
+                        <p class="skills-paragraph">
+                            使用歴１年<br>
+                            <br>
+                            基本的なデザインは問題なくコーディングできます。<br>
+                            レスポンシブ対応も得意です。
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-image"><img src="images/icon_sass.png" alt="sassのアイコン"></div>
+                    <div class="skills-textbox">
+                        <h4 class="skills-title">Sass</h4>
+                        <p class="skills-paragraph">
+                            使用歴１年<br>
+                            <br>
+                            CSSの記述にはSassを使用しています。スピードアップと修正のしやすさがメリットです。
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-image"><img src="images/icon_javascript.png" alt="javascriptのアイコン"></div>
+                    <div class="skills-textbox">
+                        <h4 class="skills-title">JavaScript</h4>
+                        <p class="skills-paragraph">
+                            使用歴１年<br>
+                            <br>
+                            jQueryを使用した簡易的なアニメーションをつけることができます。フェードインスクロール、ハンバーガーメニュー、スライダーなど。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="wrapper">
+            <h2 class="section-title">Works</h2>
+            <h3 class="section-title-jp">実績</h3>
+            <div class="works-container" data-aos="fade-up">
+                <div class="works-card">
+                    <a href="yourcoding.html">
+                        <img class="works-card-img" src="images/works-yourcoding.jpg" alt="ユアコーディング Webサイト">
+                        <p class="works-card-text">
+                            【 ユアコーディング 】<br>
+                            <br>
+                            架空サイト<br>
+                            XDデータからのコーディング<br>
+                            <br>
+                            jQueryのアニメーションはこちらをご参考ください
+                        </p>
+                    </a>
+                </div>
+                <div class="works-card">
+                    <a href="digsmile.html">
+                        <img class="works-card-img" src="images/works-digsmile.jpg" alt="DIG SMILE.inc Webサイト">
+                        <p class="works-card-text">
+                            【 DIG SMILE.INC 】<br>
+                            <br>
+                            架空サイト<br>
+                            XDデータからのコーディング<br>
+                        </p>
+                    </a>
+                </div>
+                <div class="works-card">
+                    <a href="shiro.html">
+                        <img class="works-card-img" src="images/works-shiro.jpg" alt="Shiro Webサイト">
+                        <p class="works-card-text">
+                            【 Shiro 】<br>
+                            <br>
+                            架空サイト<br>
+                            XDデータからのコーディング<br>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="end">
+        <div class="end-container">
+            <div class="end-image" data-aos="fade-down" data-aos-delay="700"></div>
+            <div class="message-wrapper" data-aos="fade-right">
+                <p class="message-en">
+                    Thank you for watching.<br>
+                    <br>
+                    I  would be grateful<br>
+                    if I can be your help.</p>
+                <p class="message-jp">
+                    ご覧いただきありがとうございました。<br>
+                    <br>
+                    ご興味を持っていただけましたら、お気軽にお問い合わせください。<br>
+                    <br>
+                    皆様のお力になれることを楽しみにしています。
+                </p>
+            </div>
+    </section>
+</main>
+
+<footer>
+    <small>&copy;Mido Web Design 2021 All Rights Reserved.</small>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
